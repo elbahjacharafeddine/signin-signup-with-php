@@ -29,8 +29,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <div class="login-form">
     <form class="js-validate form-signin p-5" action="/examples/actions/confirmation.php" method="post">
         <div class="text-center">
-            <a href="index.html" aria-label="Space">
-                <img class="mb-3" src="assets/image/logo.png" alt="Logo" width="60" height="60">
+            <a href="#" aria-label="Space">
+              <img class="mb-3" src="assets/image/logo.jpeg" alt="Logo" width="200" height="200" style="border-radius: 50%;">
             </a>
           </div>
         <div class="text-center mb-4">
@@ -53,17 +53,17 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <div class="col-sm-6 mb-2 mb-sm-0">
               <button type="button" class="btn btn-block btn-sm btn-facebook">
                 <i class="fa fa-facebook mr-2"></i>
-                @soengsouy
+                @ELBAHJA
               </button>
             </div>
             <div class="col-sm-6">
               <button type="button" class="btn btn-block btn-sm btn-twitter">
                 <i class="fa fa-twitter mr-2"></i>
-                @soengsouy
+                @ELBAHJA
               </button>
             </div>
         </div>
-        <p class="small text-center text-muted mb-0">All rights reserved. © Space. 2020 soengsouy.com.</p>
+        <p class="small text-center text-muted mb-0">All rights reserved. &copy; <script>document.write(new Date().getFullYear())</script>. ELBAHJA Charafeddine</p>
     </form>
 </div>
 

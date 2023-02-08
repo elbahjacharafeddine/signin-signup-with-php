@@ -73,7 +73,7 @@
         </div>
         
         <div class="text-center mb-3">
-            <p type="submit" class="text-muted">Have an account? <a href="sign-in.html">Signin</a></p>
+            <p type="submit" class="text-muted">Have an account? <a href="login.php">Signin</a></p>
         </div>
 		<div class="or-seperator"><i>OR</i></div>
         
